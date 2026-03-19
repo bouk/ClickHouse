@@ -70,7 +70,7 @@ struct FormatSettings
         BestEffortUS  /// Use sophisticated rules to parse American style: mm/dd/yyyy
     };
 
-    DateTimeInputFormat date_time_input_format = DateTimeInputFormat::Basic;
+    DateTimeInputFormat date_time_input_format = DateTimeInputFormat::BestEffort;
 
     enum class DateTimeOutputFormat : uint8_t
     {
